@@ -18,7 +18,7 @@ if type(table.unpack) ~= 'function' then
    table.unpack = unpack
 end
 
---- Array
+--- Array <h1 id="_chunk">_chunk</h1>
 -- @section Array
 
 ---
