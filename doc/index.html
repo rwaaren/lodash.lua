@@ -38,6 +38,7 @@
     <li><a href="#_.dropRight">_.dropRight</a></li>
     <li><a href="#_.dropRightWhile">_.dropRightWhile</a></li>
     <li><a href="#_.dropWhile">_.dropWhile</a></li>
+    <li><a href="#_.enqueue">_.enqueue</a></li>
     <li><a href="#_.fill">_.fill</a></li>
     <li><a href="#_.findIndex">_.findIndex</a></li>
     <li><a href="#_.findLastIndex">_.findLastIndex</a></li>
@@ -441,6 +442,38 @@
     </ul>
 
 </dd>
+    <dt>
+    <a name = "_.enqueue"></a>
+    <strong>_.enqueue</strong>
+    <a style="float:right;" href="https://github.com/rwaaren/lodash-functions/blob/master/_.enqueue.lua">source</a>
+    </dt>
+    <dd>
+    enqueues elements of array with value from start up to, including, end.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">array</span>
+         The array to modify.
+        </li>
+        <li><span class="parameter">value</span>
+         The value to fill first element of Array with.
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        Returns array.
+    </ol>
+
+<h3>Usage:</h3>
+<pre class="example">local array = {1, 2, 3, 4}<br /> _.enqueue(array, 5)<br /> _print(array)
+<span class="comment">--&gt; {5, 1, 2, 3, 4}
+</span></pre>
+
+</dd>
+
     <dt>
     <a name = "_.fill"></a>
     <strong>_.fill</strong>
